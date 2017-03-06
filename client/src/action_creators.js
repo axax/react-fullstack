@@ -1,4 +1,5 @@
 export function setState(state) {
+  console.log("action_creators",state);
   return {
     type: 'SET_STATE',
     state
